@@ -1,0 +1,100 @@
+body{
+    background-color:lightblue;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+.border 
+{
+    border-color: black;
+    background-color: gray;
+    text-align: center;
+    height: 40px;
+    width:100%;
+}
+#first
+{
+    color:2px solid blackS;
+    border:border-box;
+    background-color: gray;
+    align-items:0%top;
+    text-align: center;
+}
+a
+{
+    color:grey;
+}
+img
+{
+    border:5px solid black;
+    border-color:darkgrey;
+    border-radius: 30px;
+    /*align-items: center;*/
+    height: 30vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+#second
+{
+    text-decoration-color: black;
+    width:550px;
+    height: 150px;
+    border:2px solid black ;
+    padding:50px 20%;
+    text-align: center;
+    margin:0;
+    width:50%
+}
+
+#first p
+{
+    margin: 0;
+    padding:0;
+    line-height: 60px;
+    text-align: center;
+    align-items:100% bottom;
+    top: 0;
+    left:0;
+    display: flex;
+    position: fixed;
+
+}
+#fourth
+{
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 10px;
+    padding:20px;
+}
+.right-btn
+{
+    text-align: right;
+    margin-top:20px;
+}
+button
+{
+    background-color: black;
+    color:white;
+    animation-name:buttoncolor;
+    animation-duration: 4s ;
+    animation-timing-function: ease-in;
+    animation-delay: 0.2s;
+    animation-iteration-count: 5;
+    animation-direction: normal;
+}
+@keyframes buttoncolor
+{
+    from
+    {
+        background-color: black;
+        color:white;
+    }
+    to{
+        background-color: white;
+        color:black;
+    }
+}

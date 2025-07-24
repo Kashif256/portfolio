@@ -1,0 +1,131 @@
+body
+{
+    background-color: black;
+}
+.header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 42px;
+    padding:0px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+
+}
+.logo
+{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a
+{
+    margin: 0;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500px;
+    margin-left: 35px;
+    transition: 3s;
+}
+.navbar a:hover,
+.navbar a:active
+{
+    color:blue;
+}
+.right-btn
+{
+    text-align: right;
+    margin-bottom:20px;
+}
+button
+{
+    background-color: black;
+    color:white;
+    animation-name:buttoncolor;
+    animation-duration: 4s ;
+    animation-timing-function: ease-in;
+    animation-delay: 0.2s;
+    animation-iteration-count: 5;
+    animation-direction: normal;
+}
+@keyframes buttoncolor
+{
+    from
+    {
+        background-color: black;
+        color:white;
+    }
+    to{
+        background-color: white;
+        color:black;
+    }
+}
+.links
+{
+    height: 70vh;
+    align-items: center;
+    display: flex;
+    padding:0 10%;
+}
+.links-content
+{
+    max-height: 60px;
+    background-color: transparent;
+    color:white;
+    text-decoration: none;
+}
+.links-content a:hover
+{
+    color: blue;
+
+}
+.email
+{
+    height: 0vh;
+    align-items: center;
+    display: flex;
+    padding:0 10%;
+}
+.email-content
+{
+    max-height: 10px;
+    background-color: transparent;
+    color:white;
+    text-decoration: none;
+}
+.email-content a:hover
+{
+    color: blue;
+}
+.number
+{
+    margin-left:10%;
+    height: 20vh;
+    align-items: center;
+    display: flex;
+    padding:0 ;
+}
+.number-content
+{
+    max-height: 10px;
+    background-color: transparent;
+    color:white;
+    text-decoration: none;
+}
+.number-content a:hover
+{
+    color: blue;
+}
+.resume
+{
+    align-items: center;
+    height: 40px;
+    margin-left: 10%;
+}
